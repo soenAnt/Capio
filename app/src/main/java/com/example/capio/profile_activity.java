@@ -18,10 +18,12 @@ public class profile_activity extends AppCompatActivity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        super.onCreate( savedInstanceState );
+
+        setContentView( R.layout.activity_profile );
+
+        Toolbar toolbar = ( Toolbar ) findViewById( R.id.toolbar );
+        setSupportActionBar( toolbar );
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -29,8 +31,8 @@ public class profile_activity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
+        NavigationView navigationView = ( NavigationView ) findViewById( R.id.nav_view );
+        navigationView.setNavigationItemSelectedListener( this );
     }
 
     @Override

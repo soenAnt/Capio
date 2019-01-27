@@ -30,13 +30,13 @@ public class main_activity extends AppCompatActivity
         drawer.addDrawerListener( toggle );
         toggle.syncState( );
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
+        NavigationView navigationView = ( NavigationView ) findViewById( R.id.nav_view );
+        navigationView.setNavigationItemSelectedListener( this );
     }
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = ( DrawerLayout ) findViewById( R.id.drawer_layout );
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
