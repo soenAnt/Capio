@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "73195454040",
+    "firebase_url": "https://capio-92ce3.firebaseio.com",
+    "project_id": "capio-92ce3",
+    "storage_bucket": "capio-92ce3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73195454040:android:0ce682834d1c1ad6",
+        "android_client_info": {
+          "package_name": "com.example.capio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73195454040-j01i9h4k66hv37h6ifqhm3d7h2bis556.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.capio",
+            "certificate_hash": "17b003d996d1fa5e77db46c3a4e2041377855bcc"
+          }
+        },
+        {
+          "client_id": "73195454040-5ig6u2u3r4k60k9k671s41ghm5b9crvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAkhZJtDcecl-ffNrj5jMLAkPv-Bjiv1Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73195454040-5ig6u2u3r4k60k9k671s41ghm5b9crvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
